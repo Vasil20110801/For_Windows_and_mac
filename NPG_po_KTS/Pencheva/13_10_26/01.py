@@ -8,7 +8,6 @@ class Numbers:
 
     def stepen3(self):
         print(self.n ** 3 )
-
     def fact(self):
         print(math.factorial(self.n))
 
