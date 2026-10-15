@@ -2,16 +2,14 @@
 using namespace std;
 
 
-
-
 int main() {
 
   int i = 6 ;
     if ((i & 1 ) == 0) {
-        cout << i <<"cetno"<<  endl;
+        cout << i <<"  cetno"<<  endl;
     }
     else {
-        cout << i <<"necetno"<< endl;
+        cout << i <<"  necetno"<< endl;
     }
 
 

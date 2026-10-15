@@ -17,6 +17,7 @@ int main () {
 
     else {
         cout << "Led 7 e off ";
+        return 0 ;
     }
 }
 
