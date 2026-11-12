@@ -4,7 +4,6 @@ using namespace std;
 
 
 int iteraciq(int n) {
-    if (n < 0) n = -n;
     int sum = 0;
 
     while (n > 0) {
@@ -18,6 +17,7 @@ int iteraciq(int n) {
 
 int main() {
     int n = 1234;
+    if (n < 0) n = -n;
 
     cout << "Числото е  -- : " << n << endl;
     cout << "Итерация -- : " << iteraciq(n) << endl;
