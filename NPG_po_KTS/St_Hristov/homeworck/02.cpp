@@ -8,6 +8,7 @@ int main () {
     double n2 ;
     double n3 ;
     double n4 ;
+
     cin >> n1 ;
     suma += n1 ;
     cin >> n2 ;
